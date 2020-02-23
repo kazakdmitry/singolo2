@@ -32,7 +32,7 @@ a:hover {
 }
 .slider {
   background-color: #f06c64;
-  height: 600px;
+  height: 585px;
   width: 1020px;
   position: relative;
   overflow: hidden;
@@ -40,6 +40,7 @@ a:hover {
 .slider div {
   display: inline-block;
 }
+
 .arr_left {
   position: absolute;
   top: 281px;
@@ -65,4 +66,11 @@ a:hover {
 }
 .arr_right:hover {
   background-color: gray;
+}
+.footer_slider {
+  background-color: #ea676b;
+  height: 15px;
+  width: 1020px;
+  position: absolute;
+  bottom: 0px;
 }
