@@ -111,9 +111,14 @@ h1 {
 }
 h6 {
   margin-top: 0;
+  margin-bottom: 0;
   font-style: bold;
-  font-size 24px;
+  font-size: 24px;
 }
 .wrapper1 p {
-  font-size 16px;
+  font-size: 16px;
+}
+.footer {
+  height: 6px;
+  background-color: #ffffff;
 }
