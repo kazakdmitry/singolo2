@@ -26,3 +26,43 @@ nav a {
 a:hover {
   color: #f06c64;
 }
+.under_header {
+  background-color: #323746;
+  height: 6px;
+}
+.slider {
+  background-color: #f06c64;
+  height: 600px;
+  width: 1020px;
+  position: relative;
+  overflow: hidden;
+}
+.slider div {
+  display: inline-block;
+}
+.arr_left {
+  position: absolute;
+  top: 281px;
+  left: 33px;
+}
+.iphone-vertical {
+  position: absolute;
+  top: 53px;
+  left: 110px;
+}
+.iphone-horizontal {
+  position: absolute;
+  top: 174px;
+  right: 110px;
+}
+.arr_right {
+  position: absolute;
+  right: 40px;
+  top: 281px;
+}
+.arr_left:hover {
+  background-color: gray;
+}
+.arr_right:hover {
+  background-color: gray;
+}
