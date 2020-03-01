@@ -111,6 +111,9 @@ body {
   grid-template-columns: 32px 32px 32px 32px;
   grid-column-gap: 8px;
 }
+.wrapper_4_inside img:hover {
+  background-color: lightgray;
+}
 .footer_2 {
   height: 6px;
   background-color: #ffffff;
