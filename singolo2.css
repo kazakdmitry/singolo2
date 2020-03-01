@@ -1,4 +1,38 @@
 body {
   width: 1020px;
   height: 1551px;
+  margin: auto;
+}
+.portfolio h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 42px;
+  padding-top: 66px;
+  color: #666d89;
+}
+.portfolio p {
+  font: size 18px;
+  padding-left: 42px;
+  color: #666d89;
+}
+.block_1 {
+  height: 864px;
+  background-color: #2d303a;
+}
+.block_1 ul li {
+  display: inline;
+  padding: 5px;
+  border: 1px solid #c5c5c5;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 10px;
+  color: #595e76;
+  font-size: 12px;
+}
+.block_1 ul {
+  margin-bottom: 0;
+}
+.first_li {
+  margin-left: 0 !important;
 }
