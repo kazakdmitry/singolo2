@@ -67,7 +67,7 @@ body {
   margin-top: 14px;
 }
 input {
-  width: 620px;
+  width: 620px !important;
   background-color: #d6564f;
   height: 38px;
   border-radius: 3px 4px;
@@ -75,7 +75,7 @@ input {
   margin-bottom: 16px;
 }
 input[value] {
-  padding-left: 15px;
+  text-indent: 15px;
   padding-right: 0;
   font-size: 12px;
   line-height: 22px;
@@ -83,4 +83,7 @@ input[value] {
   font-family: "Lato";
   font-weight: 400;
   text-align: left;
+}
+input[type="textarea"] {
+  rows: 20;
 }
